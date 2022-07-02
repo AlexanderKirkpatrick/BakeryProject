@@ -7,6 +7,7 @@ namespace BakeryStore
   {
     public static void Main()
     {
+      Console.WriteLine("");
       Console.WriteLine("                  Welcome to Pierre's Bakery!!");
       Console.WriteLine("");
       Console.WriteLine(@"                             \\\\            
