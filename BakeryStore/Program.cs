@@ -40,7 +40,7 @@ namespace BakeryStore
       }
     }
 
-    private static int BreadOrder()
+    public static int BreadOrder()
     {
       Console.WriteLine("");
       Console.WriteLine("");
@@ -51,7 +51,7 @@ namespace BakeryStore
       return breadCost;
     }
 
-    private static int PastryOrder()
+    public static int PastryOrder()
     {
       Console.WriteLine("              How many pastries would you like today?");
       int pastryCount = GetOrder();
@@ -60,7 +60,7 @@ namespace BakeryStore
       return pastryCost;
     }
 
-    private static int GetOrder()
+    public static int GetOrder()
     {
       string userInput = Console.ReadLine();
       int order;
